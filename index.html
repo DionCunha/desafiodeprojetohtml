@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1 id="inicio">Primeiros Passos com HTML</h1>
+    <hr />
+
+    <p>A seguir apresentamos uma lista com algumas das principais tags que aprendemos no curso  "HTML na prática" da DIO.</p>
+    <h2>Índice</h2>
+   
+    <ul>
+        <li><a href="#tagh">A tag h1, h2, ... ,h6</a></li>
+        <li><a href="#tagp">A tag "p"</a></li>
+        <li><a href="#tagmark">A tag "mark"</a></li>
+        <li><a href="#tagstrong">A tag "strong"</a></li>
+        <li><a href="#tagsmall">A tag "small"</a></li>
+        <li><a href="#tagol">A tag "ol"</a></li>
+        <li><a href="#tagul">A tag "ul"</a></li>
+        <li><a href="#tagli">A tag "li"</a></li>
+        <li><a href="#taga">A tag "a"</a></li>
+        <li><a href="#tagi">A tag "i"</a></li>
+        <li><a href="#tagu">A tag "u"</a></li>
+        <li><a href="#tagsub">A tag "sub"</a></li>
+        <li><a href="#tagsup">A tag "sup"</a></li>
+        <li><a href="#tagblock">A tag "blockquote"</a></li>
+        <li><a href="#tagfonte">A tag "fonte"</a></li>
+        <li><a href="#tagdel">A tag "del"</a></li>
+        <li><a href="#tagabbr">A tag "abbr"</a></li>
+        <li><a href="#taglinks">Links de referências</a></li>
+    </ul>
+
+    <h2 id="tagh">A tag h1, h2, ... ,h6</h2>
+    
+        <p>
+            As tags <strong> h1, h2, h3 etc</strong>  são as tags responsáveis por hierarquizar a tipografia dos 
+            títulos dos
+             textos. Seria o equivalente ao <i>título, subtítulo, subsubtítulo</i> dos "estilos" na formatação de
+              um documento no word. 
+Por exemplo, a escrita em html : &lt;ul&gt;
+&lt;li&gt;&lt;h1&gt;h1 T&iacute;tulo&lt;/h1&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h2&gt;h2 Subt&iacute;tulo&lt;/h2&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h3&gt;h3 Subsubt&iacute;tulo&lt;/h3&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4&gt;h4 Subsubsubt&iacute;tulo&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h5&gt;h5 Subsubsubsubt&iacute;tulo&lt;/h5&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h6&gt;h6 Subsubsubsubsubt&iacute;tulo&lt;/h6&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+             
+           gera o seguinte texto:                    
+             
+<ul>
+    <li><h1>h1 Título</h1></li>
+    <li><h2>h2 Subtítulo</h2></li>
+    <li><h3>h3 Subsubtítulo</h3></li>
+    <li><h4>h4 Subsubsubtítulo</h4></li>
+    <li><h5>h5 Subsubsubsubtítulo</h5></li>
+    <li><h6>h6 Subsubsubsubsubtítulo</h6>
+    </li>
+</ul>
+
+        </p>
+        <small><mark><a href="#inicio">(Voltar)</a></mark></small>
+
+    <h2 id="tagp">A tag "p" </h2>
+        <p>
+            A tag "p" é usada pelo desenvolvedor do html para escrever os parágrafos do texto do site. Ou seja, para escrever os parágraafos, o desenvolvedor do html deve escrever as palavras que formarão o texto do parágrafo entre os comandos &lt;p&gt;&lt;/p&gt;.  
+             
+        </p>
+        <small><mark><a href="#inicio">(Voltar)</a></mark></small>
+    
+    <h2 id="tagmark">A tag "mark"</h2>
+        <p>
+            A tag "mark" é usada para fazer uma marcação de texto com uma cor. Por exemplo, ao usar o comando &lt;mark&gt;palavra com marcador de texto&lt;/mark&gt;
+            o seguinte resultado é exibido na página do site: <mark>palavra com marcador de texto</mark>
+
+        </p>
+        <small><mark><a href="#inicio">(Voltar)</a></mark></small>
+    
+    <h2 id="tagstrong">A tag "strong"</h2>
+        <p>
+            A tag "strong" é usada para se escrever uma palavra em negrito. O comando &lt;strong&gt;palavras em negrito&lt;/strong&gt; gera o seguinte resultado:
+            <strong>palavras em negrito</strong>
+
+        </p>
+        <small><mark><a href="#inicio">(Voltar)</a></mark></small>
+  
+    <h2 id="tagsmall">A tag "small"</h2>
+        <p>
+            A tag "small" é usada quando o desenvolvedor do site quer usar uma fonte de letra menor num intervalo 
+            definido de um texto. Para escrever uma palavra com uma fonte de letra menor, devemos escrever a palavra dentro do seguinte código: &lt;small&gt;&lt;/small&gt;
+
+        </p>
+        <small><mark><a href="#inicio">(Voltar)</a></mark></small>
+
+    <h2 id="tagol">A tag "ol"</h2>
+        <p>
+            A tag "ol" (ordered list) é usada para se fazer uma lista ordenada. Os itens da lista, nessa tag, ficam 
+            numerados de em ordem crescente. Como exemplo veja os comandos que devemos usar para visualizar o seguinte conteúdo:
+
+            <ol>
+                <li>Região Norte</li>
+                <li>Região Nordeste</li>
+                <li>Região Sudeste</li>
+                <li>Região Sul</li>
+                <li>Região Centro-Oeste</li>
+            </ol>
+
+            &lt;ol&gt;
+                &lt;li&gt;Regi&atilde;o Norte&lt;/li&gt;
+                &lt;li&gt;Regi&atilde;o Nordeste&lt;/li&gt;
+                &lt;li&gt;Regi&atilde;o Sudeste&lt;/li&gt;
+                &lt;li&gt;Regi&atilde;o Sul&lt;/li&gt;
+                &lt;li&gt;Regi&atilde;o Centro-Oeste&lt;/li&gt;
+            &lt;/ol&gt;
+
+        </p>
+        <small><mark><a href="#inicio">(Voltar)</a></mark></small>
+
+    <h2 id="tagul">A tag "ul"</h2>
+        <p>
+            Já a tag "ul" (unordered list) cria uma lista não ordenada. Os itens da lista não ordenada não são
+             numerados. Tomando como referência o comando da tag "ol", podemos repetir os comandos, tomando o cuidado apenas de trocar 
+             o por u. Assim, teremos:
+
+             <ul>
+                <li>Região Norte</li>
+                <li>Região Nordeste</li>
+                <li>Região Sudeste</li>
+                <li>Região Sul</li>
+                <li>Região Centro-Oeste</li>
+            </ul>
+
+            &lt;ul&gt;
+                &lt;li&gt;Regi&atilde;o Norte&lt;/li&gt;
+                &lt;li&gt;Regi&atilde;o Nordeste&lt;/li&gt;
+                &lt;li&gt;Regi&atilde;o Sudeste&lt;/li&gt;
+                &lt;li&gt;Regi&atilde;o Sul&lt;/li&gt;
+                &lt;li&gt;Regi&atilde;o Centro-Oeste&lt;/li&gt;
+            &lt;/ul&gt;
+        </p>
+        <small><mark><a href="#inicio">(Voltar)</a></mark></small>
+    
+        <h2 id="tagli">A tag "li"</h2>
+        <p>
+            É com o uso dessa tag, "li" que os itens de uma lista, seja ela ordenada ou não ordenada, são exibidos. A tag "li" 
+             deve ser escrita dentro do ambiente &lt;ol&gt;&lt;/ol&gt; ou &lt;ul&gt;&lt;/ul&gt;. Por exemplo, a lista com os sete estados da região norte do Brasil
+            pode ser assim executada em html:
+            
+            &lt;ul&gt;
+                &lt;li&gt;Acre&lt;/li&gt;
+                &lt;li&gt;Amap&aacute;&lt;/li&gt;
+                &lt;li&gt;Amazonas&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Par&aacute;&lt;/strong&gt;&lt;/li&gt;
+                &lt;li&gt;Rond&ocirc;nia&lt;/li&gt;
+                &lt;li&gt;Roraima&lt;/li&gt;
+                &lt;li&gt;Tocantins&lt;/li&gt;
+            &lt;/ul&gt;
+        
+            para que vejamos na página do site o seguinte conteúdo:
+
+            <ul>
+                <li>Acre</li>
+                <li>Amapá</li>
+                <li>Amazonas</li>
+                <li><strong>Pará</strong></li>
+                <li>Rondônia</li>
+                <li>Roraima</li>
+                <li>Tocantins</li>
+            </ul>
+
+        </p>
+        <small><mark><a href="#inicio">(Voltar)</a></mark></small>
+
+        <h2 id="taga">A tag "a"</h2>
+        <p>
+            A tag "a", ou também conhecida como tag de âncora, daí o uso da letra <strong>a</strong>, é usada para se 
+            fazer ancoragem entre elementos  que pertencem ao site em desenvolvimento, tanto pode ser elemento interno ao 
+            site quanto externo.
+            Para conseguirmos efetivar o uso  dessa tag, devemos usar o atributo href e uma frase ou palavra dentro 
+            da tag &lt;a&gt;&lt;/a&gt;.
+              </p>
+        <small><mark><a href="#inicio">(Voltar)</a></mark></small>
+
+        <h2 id="tagi">A tag "i"</h2>
+        <p>
+            A tag "i" é usada para fazer uma palavra ficar em formato itálico, ou seja, o comando &lt;i&gt;itálico&lt;/i&gt;
+            gera o seguinte resultado:
+            <i>itálico</i>.
+        </p>
+        <small><mark><a href="#inicio">(Voltar)</a></mark></small>
+
+        <h2 id="tagu">A tag "u"</h2>
+        <p>
+            A tag "u" é uma tag de formatação de texto. Ela é usada para sublinhar um palavra ou frase. É usada assim: &lt;u&gt;esta 
+            frase está sublinhada&lt;/u&gt; para produzir o seguinte resultado:
+            <u>esta frase está sublinhada</u>
+        </p>
+        <small><mark><a href="#inicio">(Voltar)</a></mark></small>
+
+        <h2 id="tagsub">A tag "sub"</h2>
+        <p>
+            A tag "sub", em inglês <i>subscript</i> (subscrito), é usada para fazer, por exemplo, uma letra ou número ficar abaixo da linha base 
+            da palavra no texto. Acompanhe o exemplo: H<sub>2</sub>O. Repare que o algarismo 2 está abaixo da linha base das letras H e O.
+        
+        Os comandos usados para o exemplo da fórmula química da água foi obtido a partir de:
+
+        H&lt;sub&gt;2&lt;/sub&gt;O.
+        
+        </p>
+        <small><mark><a href="#inicio">(Voltar)</a></mark></small>
+
+        <h2 id="tagsup">A tag "sup"</h2>
+        <p>
+           A tag "sup", em inglês <i>superscript</i> (sobrescrito), é usada para "fazer" expoentes alfa-numéricos. Veja os exemplos:
+           X<sup>2</sup>+X-1=0, May2024, 11<sup>th</sup>.
+
+           Os códigos que geraram os exemplos da equação do 2º grau e da data, em inglês, foram:
+           X&lt;sup&gt;2&lt;/sup&gt;+X-1=0, May2024, 11&lt;sup&gt;th&lt;/sup&gt;.
+        </p>
+        <small><mark><a href="#inicio">(Voltar)</a></mark></small>
+
+        <h2 id="tagblock">A tag "blockquote"</h2>
+        <p>
+            A tag "blockquote" é usada para fazer uma citação. Por exemplo:
+            Friedrich Nietzsche foi um visionário filósofo alemão que desafiou as convenções de sua época.
+            Sua obra, marcada por conceitos como "além do bem e do mal", "vontade de potência" e "eterno retorno"
+             questiona os fundamentos da moralidade e da existência humana.
+            Muitas vezes incompreendido em vida, hoje o pensamento de Nietzsche tem grande influência no 
+            pensamento moderno, destacando-se pela ousadia em questionar verdades que até então eram inquestionáveis.
+            <blockquote>  "Às vezes, as pessoas não querem ouvir a verdade porque não querem que suas ilusões sejam destruídas."</blockquote>
+            
+        </p>
+        <small><mark><a href="#inicio">(Voltar)</a></mark></small>
+
+        <h2 id="tagfonte">A tag "fonte"</h2>
+        <p>
+            Esta tag formata tamanho e tipo de letra. No exemplo abaixo apresentamos duas frases, a primeira em tamannho da fonte 2 
+            estilo de letra algerian. A segunda frase tem tamanho 5 e estilo de letra Times new roman, muito utilizado no word.
+            <p>
+            <font size="2" face="Algerian">
+                Este é um parágrafo.
+                </font></p>
+                
+                <p><font size="5" face="Times New Roman">
+                Este é outro parágrafo.
+                </font></p>
+        </p>
+        <small><mark><a href="#inicio">(Voltar)</a></mark></small>
+
+        <h2 id="tagdel">A tag "del"</h2>
+        <p>
+            A tag "del" é usada para fazer um risco na palavra ou frase. Pode ser muito útil para marcar o texto que não se quer mais no documento. 
+            
+        </p>
+        <p>
+            Friedrich Nietzsche foi um visionário filósofo alemão que desafiou as convenções de sua época.
+            Sua obra, marcada por conceitos como "além do bem e do mal", "vontade de potência" e "eterno retorno"
+             questiona os fundamentos da moralidade e da existência humana.
+           <del>  Muitas vezes incompreendido em vida, hoje o pensamento de Nietzsche tem grande influência no 
+            pensamento moderno, destacando-se pela ousadia em questionar verdades que até então eram inquestionáveis.</del>
+        </p>
+
+        <small><mark><a href="#inicio">(Voltar)</a></mark></small>
+
+
+        <h2 id="tagabbr">A tag "abbr"</h2>
+        <p>
+            A tag "abbr" pode ser usada para se fazer abreviaturas. Veja o comando em html,
+             note que no código é escrito Estados Unidos da América! 
+            &lt;p&gt;Obama &eacute; presidente dos &lt;abbr
+             title=&quot;Estados Unidos da Am&eacute;rica&quot;&gt;EUA&lt;/abbr&gt;&lt;/p&gt;
+        </p>
+
+        <p>Obama é presidente dos <abbr title="Estados Unidos da América">EUA</abbr></p>
+
+        <small><mark><a href="#inicio">(Voltar)</a></mark></small>
+
+    <h2 id="taglinks">Links de referências</h2>
+    <p>Seguem alguns links para outras páginas de conteúdo interessante para quem quer
+     aprender mais sobre HTML. O terceiro link abaixo é do site que consultamos para criar os comandos em html 
+     a serem exibidos na página do site. Basta copiar o código html no retângulo da parte de baixo, clicar em "parse" 
+     e copiar o código que aparecerá no retângulo da parte de cima e então colar no vscode. Veja as imagens  a seguir:
+     </p>
+
+     <img width=“6”  height=“4” src="blogcrowds1.png">
+    
+      <p> copie o código html no ambiente do vscode, em seguida, no site blogcrowds, cole no retângulo inferior, conforme imagem acima, e depois click em <strong>"parse"</strong></p>  
+        
+      <img width=“6”  height=“4” src="blogcrowds2.png">
+    
+      <p> copie o código do retângulo superior, conforme imagem acima, cole no ambiente do vscode</p> 
+
+      <img width=“6”  height=“4” src="vscode3.png">
+          <p>A imagem do ambiente do vscode mostra a etapa final após o ctrl+c e ctrl+v que fizemos para exemplificar a explicação que demos 
+        quando falamos na tag "abbr"
+      </p> 
+      <p> Seguem os links que podem ser do interessantes para consulta.</p>
+          <p>
+        <ul>
+            <li><a href="http://dio.me" target="_blank"> DIO.me</a></li>
+            <li><a href="http://w3c.org" target="_blank">W3C</a></li>
+            <li><a href="http://www.blogcrowds.com/resources/parse_html.php" target="_blank">blogcrowds</a></li>
+        </ul>
+      </p>  
+    <small><mark><a href="#inicio">(Voltar)</a></mark></small>
+</body>
+</html>
+
